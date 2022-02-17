@@ -42,6 +42,14 @@ footer{
 .logo{
     height: 80px;
 }
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
 /* Main Content Cards */
 .boxes{
     display: grid;
