@@ -5,7 +5,6 @@
 body{
     padding: 0px;
     margin: 0px;
-
 }
 /* Layout Of Page*/
 
@@ -15,7 +14,7 @@ body{
 }
 
 .container{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 footer{
@@ -23,9 +22,55 @@ footer{
     height: 90px;
 }
 
-/*Top of Page */
+.center-wrapper{
+    max-width: 1300px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
 
+.responsive-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
+}
+
+
+
+/*Top of Page */
 
 .logo{
     height: 80px;
+}
+/* Main Content Cards */
+.boxes{
+    display: grid;
+    grid-template-rows: 250px auto 70px;
+    border-radius: 5%;
+    padding: 4px;
+    
+}
+.laptop{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+}
+.icon-bar{
+    display: grid;
+    grid-auto-flow: column;
+}
+.bot-of-card{
+    display: grid;
+
+}
+.boxes{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(3, 3, 3);
+    margin: 2px;
+    padding: 0px;
+}
+.boxes p{
+    margin: 0;
 }
